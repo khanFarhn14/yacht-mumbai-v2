@@ -1,0 +1,302 @@
+// TOP QUICK LINKS SECTION
+.top-quick-links-section {
+    padding: 60px 0;
+    background: #f7f8fa;
+
+    .back-link {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 16px;
+        color: #4b63ff;
+        cursor: pointer;
+        margin-bottom: 30px;
+        transition: 0.3s;
+
+        &:hover {
+            color: #3343cc;
+        }
+
+        i {
+            font-size: 18px;
+        }
+    }
+
+    .privacy-icon {
+        margin-bottom: 20px;
+
+        .icon-circle {
+            width: 80px;
+            height: 80px;
+            background: #eef1ff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+
+            i {
+                font-size: 36px;
+                color: #4b63ff;
+            }
+        }
+    }
+
+    .title {
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        color: #2b2b2b;
+    }
+
+    .desc {
+        font-size: 16px;
+        line-height: 1.7;
+        color: #5c667b;
+        margin-bottom: 25px;
+        padding: 0 10px;
+    }
+
+    .updated-date {
+        font-size: 14px;
+        color: #9aa2b1;
+    }
+}
+
+// QUICK LINKS COMMON SECTION
+.quick-links-common-section {
+    padding: 80px 0;
+
+    .info-wrapper-card {
+        margin-bottom: 48px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+
+        .card-body {
+            padding: 30px;
+
+            .info-header {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                margin-bottom: 25px;
+
+                .icon {
+                    background-color: #e0e7ff;
+                    width: 48px;
+                    height: 48px;
+                    display: inline-block;
+                    border-radius: 12px;
+                    text-align: center;
+                    line-height: 48px;
+
+                    i {
+                        color: #6366f1;
+                        font-size: 24px;
+                    }
+                }
+
+                h2 {
+                    font-size: 24px;
+                    font-weight: 700;
+                    color: #111827;
+                }
+            }
+
+            .info-block {
+                margin-bottom: 25px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                h4 {
+                    font-size: 17px;
+                    font-weight: 700;
+                    margin-bottom: 6px;
+                    color: #1f2937;
+                }
+
+                p {
+                    font-size: 15px;
+                    color: #374151;
+                }
+            }
+        }
+    }
+}
+
+// PRIVACY SECTION
+.privacy-section {
+    padding: 40px 0;
+
+    .privacy-card {
+        width: 100%;
+        background: #ffffff;
+        border-radius: 12px;
+        text-align: center;
+
+        .card-body {
+            padding: 30px 25px;
+
+            .icon-wrapper {
+                width: 65px;
+                height: 65px;
+                margin: 0 auto 20px auto;
+                border-radius: 50%;
+                background: rgba(93, 112, 255, 0.1);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 28px;
+                color: #5d70ff;
+            }
+
+            .title {
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 15px;
+                color: #1c1c1c;
+            }
+
+            .desc {
+                font-size: 15px;
+                color: #5c5c5c;
+                line-height: 1.6;
+                margin: 0;
+            }
+        }
+    }
+}
+
+// CONTACT PRIVACY SECTION
+.contact-privacy-section {
+    padding: 60px 20px;
+
+    .contact-card {
+        text-align: center;
+        padding: 50px 35px;
+        border: none;
+        border-radius: 20px;
+        background: #fff;
+        max-width: 900px;
+        margin: auto;
+        box-shadow: 0 12px 45px rgba(0, 0, 0, 0.06);
+
+        .icon-box {
+            margin-bottom: 18px;
+
+            i {
+                font-size: 32px;
+                color: #5a56f6;
+            }
+        }
+
+        h4 {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            max-width: 700px;
+            margin: auto;
+            font-size: 15px;
+            color: #555;
+        }
+
+        .email-btn {
+            margin-top: 25px;
+            align-items: center;
+            padding: 10px 22px;
+            background: #5a56f6;
+            border-radius: 8px;
+            color: #fff;
+
+            i {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .top-quick-links-section {
+        .back-link {
+            font-size: 14px;
+        }
+
+        .privacy-icon {
+            .icon-circle {
+                width: 60px;
+                height: 60px;
+                i {
+                    font-size: 30px;
+                }
+            }
+        }
+        .title {
+            font-size: 22px;
+        }
+
+        .desc {
+            font-size: 14px;
+        }
+
+        .updated-date {
+            font-size: 12px;
+        }
+    }
+
+    .privacy-wrapper {
+        padding: 40px 15px;
+
+        .desc {
+            font-size: 15px;
+        }
+    }
+
+    // QUICK LINKS COMMON SECTION
+    .quick-links-common-section {
+        .info-wrapper-card {
+            .card-body {
+                padding: 20px;
+                .info-header {
+                    .icon {
+                        width: 40px;
+                        height: 40px;
+                        line-height: 40px;
+
+                        i {
+                            font-size: 20px;
+                        }
+                    }
+
+                    h2 {
+                        font-size: 16px;
+                    }
+                }
+
+                .info-block {
+                    h4 {
+                        font-size: 15px;
+                    }
+
+                    p {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+    // CONTACT PRIVACY SECTION
+    .contact-privacy-section {
+        .contact-card {
+            max-width: 100%;
+        }
+    }
+}

@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "icon": "ri-database-2-line",
+        "title": "Information We Collect",
+        "sections": [
+            {
+                "heading": "Personal Information",
+                "text": "When you book a yacht charter or contact us, we may collect personal information including your name, email address, phone number, date of birth, and payment information. For group bookings, we may also collect information about other passengers in your party."
+            },
+            {
+                "heading": "Booking Information",
+                "text": "We collect details about your booking preferences, selected vessels, dates, special requests, and any dietary requirements or medical conditions you choose to share with us for safety purposes."
+            },
+            {
+                "heading": "Automatically Collected Information",
+                "text": "Our website may automatically collect certain information including your IP address, browser type, device information, and browsing behavior through cookies and similar technologies to improve your experience."
+            }
+        ]
+    },
+
+    {
+        "id": 2,
+        "icon": "ri-eye-line",
+        "title": "How We Use Your Information",
+        "sections": [
+            {
+                "heading": "Service Delivery",
+                "text": "We use your information to process bookings, arrange your yacht charter experience, communicate with you about your reservation, and provide customer support before, during, and after your trip."
+            },
+            {
+                "heading": "Safety and Compliance",
+                "text": "Your information helps us ensure passenger safety, comply with maritime regulations, maintain insurance requirements, and meet legal obligations imposed by the Indian Coast Guard and Maritime Safety Authority."
+            },
+            {
+                "heading": "Communication",
+                "text": "We may use your contact information to send booking confirmations, weather updates, safety information, and promotional offers (you can opt-out of marketing communications at any time)."
+            },
+            {
+                "heading": "Service Improvement",
+                "text": "We analyze booking patterns and customer feedback to improve our services, vessel offerings, and overall customer experience."
+            }
+        ]
+    },
+
+
+    {
+        "id": 3,
+        "icon": "ri-git-repository-private-line",
+        "title": "Information Security",
+        "sections": [
+            {
+                "heading": "Data Protection Measures",
+                "text": "We implement industry-standard security measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction. This includes secure data encryption, access controls, and regular security audits."
+            },
+            {
+                "heading": "Payment Security",
+                "text": "All payment transactions are processed through secure, PCI-compliant payment gateways. We do not store complete credit card information on our servers."
+            },
+            {
+                "heading": "Employee Access",
+                "text": "Access to personal information is restricted to authorized employees who require it to perform their job functions. All staff members are trained in data protection and confidentiality."
+            }
+        ]
+    },
+
+     {
+        "id": 4,
+        "icon": "ri-user-add-line",
+        "title": "Information Sharing",
+        "sections": [
+            {
+                "heading": "Third-Party Service Providers",
+                "text": "We may share your information with trusted third-party service providers who assist us in operating our business, including payment processors, booking systems, and communication platforms. These providers are contractually obligated to protect your information."
+            },
+            {
+                "heading": "Legal Requirements",
+                "text": "We may disclose your information when required by law, to comply with legal processes, respond to government requests, or protect the rights, property, and safety of our company, customers, or others."
+            },
+            {
+                "heading": "Maritime Authorities",
+                "text": "For safety and compliance purposes, we may share passenger information with the Indian Coast Guard, Maritime Safety Authority, and other relevant regulatory bodies as required by law."
+            },
+            {
+                "heading": "No Sale of Data",
+                "text": "We do not sell, rent, or trade your personal information to third parties for marketing purposes."
+            }
+            
+        ]
+    },
+
+     {
+        "id": 5,
+        "icon": "ri-booklet-line",
+        "title": "Your Rights and Choices",
+        "sections": [
+            {
+                "heading": "Access and Correction",
+                "text": "You have the right to access, review, and request corrections to your personal information. Contact us if you believe any information we hold is inaccurate or incomplete."
+            },
+            {
+                "heading": "Data Deletion",
+                "text": "You may request deletion of your personal information, subject to our legal obligations to retain certain records for regulatory compliance, accounting, and dispute resolution purposes."
+            },
+            {
+                "heading": "Marketing Opt-Out",
+                "text": "You can opt-out of receiving promotional communications at any time by clicking the unsubscribe link in our emails or contacting us directly. Please note that you will still receive essential booking and safety-related communications."
+            },
+            {
+                "heading": "Cookie Management",
+                "text": "You can control cookie settings through your browser preferences. Note that disabling cookies may affect website functionality and your user experience."
+            }
+            
+        ]
+    },
+
+     {
+        "id": 6,
+        "icon": "ri-database-2-line",
+        "title": "Data Retention",
+        "sections": [
+            {
+                "heading": "Retention Period",
+                "text": "We retain your personal information for as long as necessary to fulfill the purposes outlined in this policy, comply with legal obligations, resolve disputes, and enforce our agreements. Booking records are typically retained for 7 years in accordance with Indian accounting and maritime regulations."
+            },
+            {
+                "heading": "Deletion Procedures",
+                "text": "When personal information is no longer needed, we securely delete or anonymize it in accordance with our data retention schedule and applicable laws."
+            }
+        ]
+    }
+]
