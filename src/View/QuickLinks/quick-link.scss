@@ -132,6 +132,7 @@
 // PRIVACY SECTION
 .privacy-section {
     padding: 40px 0;
+    background: #f7f8fa;
 
     .privacy-card {
         width: 100%;
@@ -167,6 +168,49 @@
                 color: #5c5c5c;
                 line-height: 1.6;
                 margin: 0;
+            }
+        }
+    }
+}
+
+// 
+.notice-container {
+    padding: 40px 0;
+    background: #f7f8fa;
+
+    .notice-card {
+        border-radius: 16px;
+        background: #ffffff;
+        padding: 20px 28px;
+
+        .icon-wrapper {
+            width: 50px;
+            height: 50px;
+            background: rgba(102, 126, 234, 0.15);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            i {
+                font-size: 24px;
+                color: #6c63ff;
+            }
+        }
+
+        .notice-title {
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #333;
+            font-size: 16px;
+        }
+
+        .notice-text {
+            color: #444;
+            font-size: 14px;
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
             }
         }
     }
@@ -211,9 +255,7 @@
             margin-top: 25px;
             align-items: center;
             padding: 10px 22px;
-            background: #5a56f6;
             border-radius: 8px;
-            color: #fff;
 
             i {
                 font-size: 18px;
@@ -233,11 +275,13 @@
             .icon-circle {
                 width: 60px;
                 height: 60px;
+
                 i {
                     font-size: 30px;
                 }
             }
         }
+
         .title {
             font-size: 22px;
         }
@@ -264,6 +308,7 @@
         .info-wrapper-card {
             .card-body {
                 padding: 20px;
+
                 .info-header {
                     .icon {
                         width: 40px;
@@ -297,6 +342,9 @@
     .contact-privacy-section {
         .contact-card {
             max-width: 100%;
+            .email-btn {
+                width: 100%;
+            }
         }
     }
 }

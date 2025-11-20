@@ -10,7 +10,8 @@ import Home from './View/Home/home';
 import Footer from './View/_Common/Footer';
 import Loader from './View/_Common/loader';
 import PrivacyPolicy from './View/QuickLinks/privacy-policy';
-
+import TermsofUse from './View/QuickLinks/terms-of-use';
+import SafetyGuidelines from './View/QuickLinks/safety-guidelines';
 
 export default function App() {
   const location = useLocation();
@@ -39,6 +40,8 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-use" element={<TermsofUse />} />
+          <Route path="/safety-guidelines" element={<SafetyGuidelines />} />
         </Routes>
       </div>
       <Footer />

@@ -1,9 +1,11 @@
 .my-navbar {
     background-color: #fff;
     padding: 15px 20px;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 100;
+    left: 0;
+    right: 0;
 
     .navbar-brand {
         font-size: 20px;
@@ -20,8 +22,10 @@
             padding: 10px 8px;
             font-size: 16px;
             transition: 0.3s ease;
+            -webkit-transition: 0.3s ease;
 
-            &:hover {
+            &:hover,
+            &.active {
                 color: #2E7AD8;
             }
 

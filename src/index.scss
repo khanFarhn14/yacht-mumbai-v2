@@ -252,6 +252,7 @@ body {
 
   // MAIN APP
   .main-app {
+    padding-top: 74px;
 
     // SECTION TITLE
     .section-title {
@@ -301,6 +302,8 @@ body {
 // MOBILE VIEW MEDIA QUERY
 @media screen and (max-width: 480px) {
   body {
+     .main-app {
+    padding-top: 60px;}
     .btn-class {
       padding: 15px 30px;
     }

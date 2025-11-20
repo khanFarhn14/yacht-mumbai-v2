@@ -1,0 +1,118 @@
+[
+    {
+        "title": "Before You Board",
+        "icon": "ri-boxing-line",
+        "lists": [
+            {
+                "title": "Eat Light Before Boarding",
+                "sub_title": "Have a light meal 1-2 hours before departure. Avoid heavy, greasy, or spicy foods"
+            },
+            {
+                "title": "Stay Hydrated",
+                "sub_title": "Drink plenty of water before and during the trip. Dehydration can worsen seasickness"
+            },
+            {
+                "title": "Avoid Strong Odors",
+                "sub_title": "Skip strong-smelling foods like fish or garlic before sailing - they can trigger nausea"
+            },
+            {
+                "title": "Limit Alcohol",
+                "sub_title": "Excessive alcohol consumption affects balance and can increase seasickness. Drink responsibly"
+            },
+            {
+                "title": "Ginger Helps",
+                "sub_title": "Ginger tea, ginger candy, or ginger tablets can help prevent and reduce seasickness naturally"
+            },
+            {
+                "title": "Fresh Air",
+                "sub_title": "If feeling queasy, stay on deck in fresh air and focus on the horizon. Avoid staying in enclosed spaces"
+            }
+        ]
+    },
+    {
+        "title": "On Board Behavior",
+        "icon": "ri-group-line",
+        "lists": [
+            {
+                "title": "Stay Seated While Moving",
+                "sub_title": "Remain seated when the vessel is in motion, especially during acceleration or turns"
+            },
+            {
+                "title": "Hold Railings",
+                "sub_title": "Always use handrails when moving around the vessel, especially in rough waters"
+            },
+            {
+                "title": "Avoid Edges",
+                "sub_title": "Please don't stand at the edge of the vessel or lean over railings, especially with children"
+            },
+            {
+                "title": "Follow Crew Instructions",
+                "sub_title": "Our crew's instructions are for your safety - please follow them promptly and completely"
+            },
+            {
+                "title": "Supervise Children",
+                "sub_title": "Children under 12 must be supervised by an adult at all times. Life jackets are mandatory for kids"
+            },
+            {
+                "title": "No Diving or Swimming",
+                "sub_title": "Swimming is only permitted when the vessel is anchored and with crew supervision"
+            }
+        ]
+    },
+    {
+        "title": "Dietary Recommendations",
+        "icon": "ri-restaurant-line",
+        "lists": [
+            {
+                "title": "Eat Light Before Boarding",
+                "sub_title": "Have a light meal 1-2 hours before departure. Avoid heavy, greasy, or spicy foods"
+            },
+            {
+                "title": "Stay Hydrated",
+                "sub_title": "Drink plenty of water before and during the trip. Dehydration can worsen seasickness"
+            },
+            {
+                "title": "Avoid Strong Odors",
+                "sub_title": "Skip strong-smelling foods like fish or garlic before sailing - they can trigger nausea"
+            },
+            {
+                "title": "Limit Alcohol",
+                "sub_title": "Excessive alcohol consumption affects balance and can increase seasickness. Drink responsibly"
+            },
+            {
+                "title": "Ginger Helps",
+                "sub_title": "Ginger tea, ginger candy, or ginger tablets can help prevent and reduce seasickness naturally"
+            },
+            {
+                "title": "Fresh Air",
+                "sub_title": "If feeling queasy, stay on deck in fresh air and focus on the horizon. Avoid staying in enclosed spaces"
+            }
+        ]
+    },
+    {
+        "title": "What to Bring",
+        "icon": "ri-boxing-line",
+        "lists": [
+            {
+                "title": "Sun Protection",
+                "sub_title": "Sunscreen (reef-safe preferred), sunglasses, and a hat - the sun reflects strongly off the water"
+            },
+            {
+                "title": "Motion Sickness Remedies",
+                "sub_title": "Bring seasickness medication if you're prone to motion sickness (take 30 minutes before departure)"
+            },
+            {
+                "title": "Personal Medications",
+                "sub_title": "Bring any personal medications you may need during the trip"
+            },
+            {
+                "title": "Waterproof Bag",
+                "sub_title": "A waterproof pouch or bag for electronics and valuables to protect from water spray"
+            },
+            {
+                "title": "Light Jacket",
+                "sub_title": "Even on warm days, it can get breezy on the water, especially during sunset cruises"
+            }
+        ]
+    }
+]

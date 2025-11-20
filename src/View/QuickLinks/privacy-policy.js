@@ -126,7 +126,8 @@ export default function PrivacyPolicy() {
                         or how we handle your personal information, don’t hesitate to contact us.
                     </p>
 
-                    <Button
+                   <div>
+                     <Button
                         type="button"
                         as="a"
                         href="mailto:info@booksailingmumbai.com"
@@ -135,6 +136,7 @@ export default function PrivacyPolicy() {
                         <i className="ri-mail-send-line me-2 align-middle"></i>
                         <span className="align-middle">info@booksailingmumbai.com</span>
                     </Button>
+                   </div>
                 </Card>
             </section>
         </React.Fragment>

@@ -1,0 +1,210 @@
+[
+    {
+        "id": 1,
+        "icon": "ri-sticky-note-line",
+        "title": "Acceptance of Terms",
+        "sections": [
+            {
+                "text": "By accessing our website, booking a yacht charter, or using any of our services, you agree to be bound by these Terms of Use. If you do not agree with any part of these terms, please do not use our services. These terms constitute a legally binding agreement between you and Book Sailing Mumbai."
+            },
+            {
+                "text": "We reserve the right to modify these terms at any time. Continued use of our services after changes constitutes acceptance of the modified terms. It is your responsibility to review these terms periodically."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "icon": "ri-calendar-line",
+        "title": "Booking and Reservations",
+        "sections": [
+            {
+                "heading": "Booking Process",
+                "text": "All bookings are subject to availability and confirmation. A booking is confirmed only when you receive written confirmation from us via email or WhatsApp. We reserve the right to decline any booking at our discretion."
+            },
+            {
+                "heading": "Booking Requirements",
+                "text": "You must be at least 18 years old to make a booking. You are responsible for providing accurate information including passenger count, dates, and contact details. You must disclose any relevant medical conditions or special requirements at the time of booking."
+            },
+            {
+                "heading": "Group Bookings",
+                "text": "For group bookings, the person making the reservation is responsible for all passengers in their party and agrees to these terms on their behalf. The booking party leader must ensure all passengers comply with safety regulations and crew instructions."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "icon": "ri-bank-card-line",
+        "title": "Payment Terms",
+        "sections": [
+            {
+                "heading": "Payment Methods",
+                "text": "We accept payments via bank transfer, credit/debit cards, UPI, and other specified payment methods. All prices are quoted in Indian Rupees (INR) unless otherwise stated."
+            },
+            {
+                "heading": "Payment Schedule",
+                "text": "A deposit may be required to confirm your booking. Full payment must be received before the charter date as specified in your booking confirmation. Failure to complete payment may result in cancellation of your booking."
+            },
+            {
+                "heading": "Price Changes",
+                "text": "Prices are subject to change until booking is confirmed. Once confirmed and paid, your price is guaranteed unless you request modifications to your booking that affect the cost."
+            },
+            {
+                "heading": "Taxes and Fees",
+                "text": "All applicable taxes, fuel surcharges, and government fees are included in the quoted price unless explicitly stated otherwise. Additional services requested during the charter may incur extra charges."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "icon": "ri-close-circle-line",
+        "title": "Cancellation and Refund Policy",
+        "sections": [
+            {
+                "heading": "Customer Cancellations",
+                "text": "Cancellations made more than 7 days before the charter date: Full refund minus 10% processing fee. Cancellations made 3-7 days before: 50% refund. Cancellations made less than 3 days before: No refund. Cancellations must be made in writing via email."
+            },
+            {
+                "heading": "Weather-Related Cancellations",
+                "text": "If we cancel your charter due to unsafe weather conditions or maritime advisories, you will receive a full refund or the option to reschedule at no additional cost. This decision is at the sole discretion of the captain and is final."
+            },
+            {
+                "heading": "No-Shows",
+                "text": "If you fail to arrive for your scheduled charter without prior notice, no refund will be provided. We recommend arriving 15 minutes before departure time."
+            },
+            {
+                "heading": "Rescheduling",
+                "text": "Requests to reschedule must be made at least 48 hours before your charter date, subject to availability. One complimentary reschedule is permitted; subsequent changes may incur a fee."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "icon": "ri-shield-line",
+        "title": "Safety and Conduct",
+        "sections": [
+            {
+                "heading": "Passenger Obligations",
+                "text": "All passengers must attend the pre-departure safety briefing and follow all crew instructions throughout the charter. You must wear provided life jackets when required. Reckless or dangerous behavior may result in immediate termination of the charter without refund."
+            },
+            {
+                "heading": "Health and Fitness",
+                "text": "You must be in reasonable physical health to participate. Passengers with heart conditions, pregnancy, recent surgery, or other medical concerns should consult a physician before booking. We reserve the right to refuse boarding to anyone deemed unfit to sail."
+            },
+            {
+                "heading": "Alcohol and Substances",
+                "text": "Moderate alcohol consumption may be permitted on certain charters, but intoxication is strictly prohibited. Illegal substances are absolutely forbidden. The captain reserves the right to refuse boarding to or disembark intoxicated passengers."
+            },
+            {
+                "heading": "Children",
+                "text": "Moderate alcohol consumption may be permitted on certain charters, but intoxication is strictly prohibited. Illegal substances are absolutely forbidden. The captain reserves the right to refuse boarding to or disembark intoxicated passengers."
+            },
+            {
+                "heading": "Prohibited Items",
+                "text": "Weapons, explosives, illegal substances, and any items deemed dangerous by the crew are strictly prohibited. We reserve the right to inspect bags and refuse boarding for non-compliance."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "icon": "ri-error-warning-line",
+        "title": "Liability and Insurance",
+        "sections": [
+            {
+                "heading": "Our Liability",
+                "text": "We maintain appropriate insurance coverage for our vessels and operations. However, our liability is limited to the maximum extent permitted by law. We are not liable for delays, itinerary changes, or cancellations due to weather, mechanical issues, or circumstances beyond our control."
+            },
+            {
+                "heading": "Passenger Liability",
+                "text": "You are responsible for any damage you cause to the vessel, equipment, or other property. You agree to reimburse us for repair or replacement costs. You are liable for any injuries you cause to other passengers or crew members due to your negligence or misconduct."
+            },
+            {
+                "heading": "Personal Belongings",
+                "text": "We are not responsible for loss, theft, or damage to your personal belongings. We recommend not bringing valuable items and securing electronics in waterproof containers."
+            },
+            {
+                "heading": "Travel Insurance",
+                "text": "We strongly recommend purchasing travel insurance to cover trip cancellation, medical emergencies, and personal belongings. Your travel insurance should include coverage for water-based activities."
+            },
+            {
+                "heading": "Assumption of Risk",
+                "text": "You acknowledge that yacht charters involve inherent risks including but not limited to weather conditions, sea state, and marine hazards. You voluntarily assume all risks associated with participation in our services."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "icon": "ri-anchor-line",
+        "title": "Vessel and Itinerary",
+        "sections": [
+            {
+                "heading": "Vessel Substitution",
+                "text": "We reserve the right to substitute a vessel of similar or superior quality if necessary due to mechanical issues, maintenance requirements, or unforeseen circumstances. You will be notified as soon as possible of any such changes."
+            },
+            {
+                "heading": "Itinerary Changes",
+                "text": "The captain has absolute discretion to modify the route, duration, or itinerary for safety reasons, weather conditions, or operational requirements. Such changes do not entitle you to a refund or compensation."
+            },
+            {
+                "heading": "Departure Times",
+                "text": "Departure times are approximate and may be adjusted for safety, weather, or operational reasons. We will make reasonable efforts to notify you of significant changes in advance."
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "icon": "ri-group-line",
+        "title": "Photography and Media",
+        "sections": [
+            {
+                "heading": "Our Photography",
+                "text": "We may take photographs and videos during your charter for promotional purposes. By participating, you consent to the use of your image in our marketing materials, website, and social media. If you prefer not to be photographed, please inform the crew at the start of your charter."
+            },
+            {
+                "heading": "Drone Usage",
+                "text": "Use of drones by passengers is subject to crew approval and must comply with all applicable regulations. We reserve the right to prohibit drone usage at any time."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "icon": "ri-scales-3-line",
+        "title": "Governing Law and Disputes",
+        "sections": [
+            {
+                "heading": "Jurisdiction",
+                "text": "These Terms of Use are governed by the laws of India. The courts of Mumbai, Maharashtra have exclusive jurisdiction over any disputes arising from these terms or your use of our services."
+            },
+            {
+                "heading": "Dispute Resolution",
+                "text": "In the event of a dispute, we encourage you to contact us first to seek an amicable resolution. If the dispute cannot be resolved informally, both parties agree to attempt mediation before pursuing legal action."
+            },
+            {
+                "heading": "Severability",
+                "text": "If any provision of these terms is found to be invalid or unenforceable, the remaining provisions will continue in full force and effect."
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "icon": "ri-sticky-note-2-line",
+        "title": "Additional Terms",
+        "sections": [
+            {
+                "heading": "Force Majeure",
+                "text": "We are not liable for failure to perform our obligations due to circumstances beyond our control including natural disasters, war, terrorism, strikes, government actions, pandemics, or other force majeure events."
+            },
+            {
+                "heading": "Entire Agreement",
+                "text": "These Terms of Use, together with our Privacy Policy and any booking confirmation, constitute the entire agreement between you and Book Sailing Mumbai regarding your use of our services."
+            },
+            {
+                "heading": "Waiver",
+                "text": "Our failure to enforce any right or provision of these terms does not constitute a waiver of such right or provision."
+            },
+            {
+                "heading": "Assignment",
+                "text": "You may not transfer or assign your rights or obligations under these terms without our written consent. We may assign our rights and obligations to any third party at our discretion."
+            }
+        ]
+    }
+]

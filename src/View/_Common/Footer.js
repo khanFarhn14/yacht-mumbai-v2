@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./footer.scss";
 import { Container, Row, Col, Nav } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default function Footer() {
     const { pathname } = useLocation();
@@ -9,7 +10,26 @@ export default function Footer() {
     useEffect(() => {
         window.scrollTo({ top: 0, behavior: "smooth" });
     }, [pathname]);
-    
+
+    const [activeSection, setActiveSection] = useState("");
+
+    useEffect(() => {
+        const sections = document.querySelectorAll("section[id]");
+        const options = { threshold: 0.6 };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    setActiveSection(entry.target.id);
+                }
+            });
+        }, options);
+
+        sections.forEach((section) => observer.observe(section));
+
+        return () => observer.disconnect();
+    }, []);
+
     return (
         <React.Fragment>
             <footer className="footer">
@@ -65,9 +85,21 @@ export default function Footer() {
                     <div className="bottom-footer">
                         <p>© 2024 Book Sailing Mumbai. All rights reserved.</p>
                         <ul className="d-flex gap-3">
-                            <li><Nav.Link as={Link} to="privacy-policy">Privacy Policy</Nav.Link></li>
-                            <li><Nav.Link as={Link}>Terms of Use</Nav.Link></li>
-                            <li><Nav.Link as={Link}>Safety Guidelines</Nav.Link></li>
+                            <li>
+                                <Nav.Link as={HashLink} className={activeSection === "privacy-policy" ? "active" : ""} to="privacy-policy" eventKey="privacy-policy">
+                                    Privacy Policy
+                                </Nav.Link>
+                            </li>
+                            <li>
+                                <Nav.Link as={HashLink} className={activeSection === "terms-of-use" ? "active" : ""} to="terms-of-use" eventKey="terms-of-use">
+                                    Terms of Use
+                                </Nav.Link>
+                            </li>
+                            <li>
+                                <Nav.Link as={HashLink} className={activeSection === "safety-guidelines" ? "active" : ""} to="safety-guidelines" eventKey="safety-guidelines">
+                                    Safety Guidelines
+                                </Nav.Link>
+                            </li>
                         </ul>
                     </div>
                 </Container>
