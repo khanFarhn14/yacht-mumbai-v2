@@ -89,13 +89,13 @@ export default function Home() {
             <section className="home-section" id="home">
                 <Container>
                     <div className="home-section-content">
-                        <div className="icon">
+                        <div className="icon" data-aos="fade" data-aos-duration="2200">
                             <i className="ri-anchor-line"></i>
                         </div>
-                        <h1>Luxury Sail & Speed Boat Experiences from Gateway of India</h1>
-                        <p>Experience the Arabian Sea like never before. Premium yacht charters, sunset cruises, and unforgettable celebrations on Mumbai's pristine waters.</p>
+                        <h1 data-aos="fade-up" data-aos-duration="2500">Luxury Sail & Speed Boat Experiences from Gateway of India</h1>
+                        <p data-aos="fade-up" data-aos-duration="2700">Experience the Arabian Sea like never before. Premium yacht charters, sunset cruises, and unforgettable celebrations on Mumbai's pristine waters.</p>
 
-                        <div className="home-section-content-btn">
+                        <div className="home-section-content-btn" data-aos="fade-up" data-aos-duration="3000">
                             <Button type="button" variant="primary">
                                 <i className="ri-bookmark-line"></i>
                                 <span>Book a Trip</span>
@@ -122,16 +122,15 @@ export default function Home() {
             {/* OUR FLEET SECTION  */}
             <section className="our-fleet-section" id="our_fleet">
                 <Container>
-                    <div className="section-title text-center">
+                    <div className="section-title text-center" data-aos="fade-up" data-aos-duration="1500">
                         <h2>Our Fleet</h2>
                         <p>Choose from our diverse collection of vessels, each designed for unique experiences on Mumbai's beautiful waters</p>
                     </div>
 
                     <div className="our-fleet-content">
-
                         <Row className="g-3">
                             {yachtData.map((item, i) => (
-                                <Col key={i} lg={4} md={6} sm={12} className="mb-4">
+                                <Col key={i} lg={4} md={6} sm={12} className="mb-4" data-aos="fade" data-aos-duration="2000">
                                     <div
                                         className="yacht-card"
                                         style={{ backgroundImage: `url(${item.image})` }}
@@ -155,7 +154,7 @@ export default function Home() {
                         </Row>
                     </div>
 
-                    <div className="expert-box">
+                    <div className="expert-box" data-aos="fade-up" data-aos-duration="2000">
                         <h5 className="title">Not Sure Which Boat to Choose?</h5>
                         <p className="subtitle">
                             Our team will help you select the perfect vessel based on your group size, occasion, <br />
@@ -173,7 +172,7 @@ export default function Home() {
             {/* FEATURED EXPERIENCE SECTION */}
             <section className="featured-experience-section" id="experiences">
                 <Container>
-                    <div className="section-title text-center">
+                    <div className="section-title text-center" data-aos="fade-up" data-aos-duration="2500">
                         <h2>Featured Experiences</h2>
                         <p>Choose from our curated selection of premium yacht and speed boat experiences</p>
                     </div>
@@ -182,7 +181,7 @@ export default function Home() {
                     <div className="featured-experience-content">
                         <Row className="g-3">
                             {featuredExperiences.map((item, index) => (
-                                <Col key={index} xs={12} sm={6} lg={4}>
+                                <Col key={index} xs={12} sm={6} lg={4} data-aos="fade" data-aos-duration="2000">
                                     <div className="service-card" style={{ backgroundImage: `url(${item.img})` }}>
                                         <div className="service-content">
                                             <h3>{item.title}</h3>
@@ -200,7 +199,7 @@ export default function Home() {
             {/* GET IN TOUCH SECTION */}
             <section className="get-in-touch" id="contact">
                 <Container>
-                    <div className="section-title text-center">
+                    <div className="section-title text-center" data-aos="fade-up" data-aos-duration="2500">
                         <h2>Get In Touch</h2>
                         <p>Ready to embark on an unforgettable journey? Contact us to book your luxury yacht experience</p>
                     </div>
@@ -208,7 +207,7 @@ export default function Home() {
 
                     <Row className="form-contact-wrapper">
                         {/* LEFT COLUMN — FORM */}
-                        <Col xs={12} lg={7} className="form-column">
+                        <Col xs={12} lg={7} className="form-column" data-aos="fade-right" data-aos-duration="2000">
                             <Form>
                                 <Form.Group className="mb-3">
                                     <Form.Label>Full Name *</Form.Label>
@@ -267,7 +266,7 @@ export default function Home() {
                         </Col>
 
                         {/* RIGHT COLUMN — CONTACT INFO BOX */}
-                        <Col xs={12} lg={5} className="contact-info-column">
+                        <Col xs={12} lg={5} className="contact-info-column" data-aos="fade-left" data-aos-duration="2000">
                             <div className="info-card">
                                 <h5>Contact Information</h5>
                                 <div className="info-item">

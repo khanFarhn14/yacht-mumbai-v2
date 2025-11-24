@@ -45,22 +45,22 @@ export default function PrivacyPolicy() {
                                 <i className="ri-arrow-left-line"></i> Back to Home
                             </a>
 
-                            <div className="privacy-icon">
+                            <div className="privacy-icon" data-aos="fade" data-aos-duration="3000">
                                 <div className="icon-circle">
                                     <i className="ri-lock-2-line"></i>
                                 </div>
                             </div>
 
-                            <h3 className="title">Privacy Policy</h3>
+                            <h3 className="title" data-aos="fade-up" data-aos-duration="2500">Privacy Policy</h3>
 
-                            <p className="desc">
+                            <p className="desc" data-aos="fade-up" data-aos-duration="2700">
                                 At Book Sailing Mumbai, we are committed to protecting your privacy
                                 and ensuring the security of your personal information. This Privacy
                                 Policy explains how we collect, use, share, and protect your
                                 information when you use our yacht charter services.
                             </p>
 
-                            <p className="updated-date">Last Updated: November 15, 2025</p>
+                            <p className="updated-date" data-aos="fade-up" data-aos-duration="3000">Last Updated: November 15, 2025</p>
                         </Col>
                     </Row>
                 </Container>
@@ -70,7 +70,7 @@ export default function PrivacyPolicy() {
             <section className="quick-links-common-section">
                 <Container>
                     {infoData?.map((item, index) => (
-                        <Card className="info-wrapper-card" key={`info-${index}`}>
+                        <Card className="info-wrapper-card" key={`info-${index}`} data-aos="fade-up" data-aos-duration="2000">
                             <Card.Body>
                                 <div className="info-wrapper">
                                     <div className="info-header">
@@ -96,7 +96,7 @@ export default function PrivacyPolicy() {
                 <Container>
                     <Row className="g-4 justify-content-center">
                         {privacyData.map((item, index) => (
-                            <Col key={index} lg={4} md={6} sm={12} className="d-flex justify-content-center">
+                            <Col key={index} lg={4} md={6} sm={12} className="d-flex justify-content-center" data-aos="fade" data-aos-duration="2000">
                                 <Card className="privacy-card">
                                     <Card.Body>
                                         <div className="icon-wrapper">
@@ -113,7 +113,7 @@ export default function PrivacyPolicy() {
             </section>
 
             {/* CONTACT PRIVACY SECTION */}
-            <section className="contact-privacy-section">
+            <section className="contact-privacy-section" data-aos="fade-up" data-aos-duration="2000">
                 <Card className="contact-card">
                     <div className="icon-box">
                         <i className="ri-mail-line"></i>

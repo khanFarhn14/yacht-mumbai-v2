@@ -124,14 +124,14 @@ export default function SafetyGuidelines() {
                                 <i className="ri-arrow-left-line"></i> Back to Home
                             </a>
 
-                            <div className="privacy-icon">
+                            <div className="privacy-icon" data-aos="fade" data-aos-duration="3000">
                                 <div className="icon-circle">
                                     <i className="ri-shield-line"></i>
                                 </div>
                             </div>
 
-                            <h3 className="title">Your Safety is Our Priorityy</h3>
-                            <p className="desc mb-0">At Book Sailing Mumbai, we believe that memorable experiences begin with peace of mind. Every precaution,
+                            <h3 className="title" data-aos="fade-up" data-aos-duration="2500">Your Safety is Our Priority</h3>
+                            <p className="desc mb-0" data-aos="fade-up" data-aos-duration="2700">At Book Sailing Mumbai, we believe that memorable experiences begin with peace of mind. Every precaution,
                                 every protocol, and every crew member is dedicated to ensuring your journey on the water is safe, comfortable, and truly unforgettable.</p>
                         </Col>
                     </Row>
@@ -143,7 +143,7 @@ export default function SafetyGuidelines() {
                 <Container>
                     <Row className="justify-content-center text-center">
                         {stats.map((item, index) => (
-                            <Col key={index} xs={12} md={4} className="stats-col">
+                            <Col key={index} xs={12} md={4} className="stats-col" data-aos="fade" data-aos-duration="2000">
                                 <div className="stats-icon-wrapper">
                                     <i className={item.icon}></i>
                                 </div>
@@ -162,7 +162,7 @@ export default function SafetyGuidelines() {
                     <Row>
 
                         {/* LEFT CONTENT */}
-                        <Col md={6} className="promise-left">
+                        <Col md={6} className="promise-left" data-aos="fade-right" data-aos-duration="2000">
                             <div className="promise-badge">
                                 <i className="ri-heart-line"></i> Our Promise to You
                             </div>
@@ -188,7 +188,7 @@ export default function SafetyGuidelines() {
                         </Col>
 
                         {/* RIGHT IMAGE */}
-                        <Col md={5}>
+                        <Col md={5} data-aos="fade-left" data-aos-duration="2000">
                             <div className="promise-right">
                                 <Image src={wellbeingImg} alt="Passengers on deck" className="promise-image" />
                             </div>
@@ -201,7 +201,7 @@ export default function SafetyGuidelines() {
             {/* SAFETY SECION */}
             <section className="safety-section">
                 <Container>
-                    <div className="heading-wrapper">
+                    <div className="heading-wrapper" data-aos="fade-up" data-aos-duration="2500">
                         <h4 className="heading">How We Keep You Safe</h4>
                         <p className="subtext">
                             From state-of-the-art equipment to expert crew training, here’s what makes
@@ -211,7 +211,7 @@ export default function SafetyGuidelines() {
                     <Row>
                         {safetyItems.map((item, idx) => (
                             <Col md={4} sm={6} xs={12} className="mb-4" key={idx}>
-                                <Card className="safety-card">
+                                <Card className="safety-card" data-aos="fade" data-aos-duration="2000">
                                     <Card.Img variant="top" src={item.img} className="card-img" />
                                     <Card.Body>
                                         <div className="icon-title">
@@ -227,7 +227,7 @@ export default function SafetyGuidelines() {
                         ))}
                     </Row>
 
-                    <div className="certification">
+                    <div className="certification" data-aos="fade-up" data-aos-duration="2000">
                         <i className="ri-shield-line align-middle"></i>
                         <spam className="align-middle">All vessels certified by Indian Coast Guard and Maritime Safety Authority</spam>
                     </div>
@@ -237,7 +237,7 @@ export default function SafetyGuidelines() {
             {/* GUIDE LINE SECTION */}
             <section className="guidelines-section">
                 <Container>
-                    <div className="guidelines-header">
+                    <div className="guidelines-header" data-aos="fade-up" data-aos-duration="2000">
                         <h3 className="title">Your Safety Guidelines</h3>
                         <p className="subtitle">Simple tips to help you have a safe and comfortable experience on the water</p>
                     </div>
@@ -245,7 +245,7 @@ export default function SafetyGuidelines() {
                     <Row>
                         {guidelinesData?.map((item, index) => (
                             <Col md={6} lg={6} key={index} className="mb-4">
-                                <Card className="guidelines-card">
+                                <Card className="guidelines-card" data-aos="fade" data-aos-duration="2000">
                                     <Card.Body>
                                         <div className="icon-wrapper">
                                             <div className="icons">
@@ -273,7 +273,7 @@ export default function SafetyGuidelines() {
                         ))}
                     </Row>
 
-                    <Card className="guidelines-footer-card shadow-sm">
+                    <Card className="guidelines-footer-card shadow-sm" data-aos="fade" data-aos-duration="2000">
                         <Card.Body className="text-center">
                             <i className="ri-information-line info-icon"></i>
 
@@ -293,7 +293,7 @@ export default function SafetyGuidelines() {
             {/* EMERGENCY SECTION */}
             <section className="emergency-section">
                 <Container>
-                    <div className="section-header text-center">
+                    <div className="section-header text-center" data-aos="fade-up" data-aos-duration="2000">
                         <h5>Emergency Response</h5>
                         <p>
                             While emergencies are rare, we're thoroughly prepared with detailed protocols <br />
@@ -303,7 +303,7 @@ export default function SafetyGuidelines() {
 
                     <Row className="gy-4 justify-content-center">
                         {emergencyItems.map((item, index) => (
-                            <Col key={index} xs={12} sm={6} lg={3}>
+                            <Col key={index} xs={12} sm={6} lg={3} data-aos="fade" data-aos-duration="2000">
                                 <Card className="emergency-card text-center h-100">
                                     <div className="icon-wrapper mx-auto">
                                         <i className={item.icon}></i>
@@ -323,7 +323,7 @@ export default function SafetyGuidelines() {
             {/* CERTIFICATION COMPLIANCE SECTION */}
             <section className="certifications-compliance-section">
                 <Container>
-                    <div className="section-header text-center">
+                    <div className="section-header text-center" data-aos="fade-up" data-aos-duration="2000">
                         <h5>Official Certifications & Compliance</h5>
                         <p>
                             All our vessels and crew members maintain current certifications from recognized <br />
@@ -334,7 +334,7 @@ export default function SafetyGuidelines() {
                     <Row className="gy-4 justify-content-center">
                         {certifications.map((item, index) => (
                             <Col key={index} xs={12} md={6} lg={4}>
-                                <Card className="cert-card text-center h-100">
+                                <Card className="cert-card text-center h-100" data-aos="fade" data-aos-duration="2000">
                                     <div className="icon-wrapper">
                                         <i className={item.icon}></i>
                                     </div>
@@ -351,7 +351,7 @@ export default function SafetyGuidelines() {
             </section>
 
             {/* CONTACT PRIVACY SECTION */}
-            <section className="contact-privacy-section">
+            <section className="contact-privacy-section" data-aos="fade-up" data-aos-duration="2000">
                 <Card className="contact-card">
                     <h4>Ready for a Safe and Memorable Experience?</h4>
                     <p>Book your yacht charter with confidence. Our team is available 24/7 to answer any questions about safety, procedures, or your upcoming voyage.</p>

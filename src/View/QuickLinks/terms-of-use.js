@@ -14,25 +14,23 @@ export default function TermsofUse() {
                 <Container>
                     <Row className="justify-content-center">
                         <Col md={10} lg={8} className="text-center">
-
                             <a className="back-link" href="/home">
                                 <i className="ri-arrow-left-line"></i> Back to Home
                             </a>
-
-                            <div className="privacy-icon">
+                            <div className="privacy-icon" data-aos="fade" data-aos-duration="3000">
                                 <div className="icon-circle">
                                     <i className="ri-scales-3-line"></i>
                                 </div>
                             </div>
 
-                            <h3 className="title">Terms of Use</h3>
+                            <h3 className="title" data-aos="fade-up" data-aos-duration="2500">Terms of Use</h3>
 
-                            <p className="desc">
+                            <p className="desc" data-aos="fade-up" data-aos-duration="2700">
                                 Please read these Terms of Use carefully before booking or using any services provided by Book Sailing Mumbai.
                                 These terms govern your use of our website and yacht charter services.
                             </p>
 
-                            <p className="updated-date">Last Updated: November 15, 2025</p>
+                            <p className="updated-date" data-aos="fade-up" data-aos-duration="3000">Last Updated: November 15, 2025</p>
                         </Col>
                     </Row>
                 </Container>
@@ -42,7 +40,7 @@ export default function TermsofUse() {
             <section className="quick-links-common-section">
                 <Container>
                     {infoData?.map((item, index) => (
-                        <Card className="info-wrapper-card" key={`info-${index}`}>
+                        <Card className="info-wrapper-card" key={`info-${index}`} data-aos="fade-up" data-aos-duration="2000">
                             <Card.Body>
                                 <div className="info-wrapper">
                                     <div className="info-header">
@@ -66,7 +64,7 @@ export default function TermsofUse() {
             {/* PRIVACY SECTION */}
             <section className="notice-container">
                 <Container>
-                    <Card className="notice-card shadow-sm">
+                    <Card className="notice-card shadow-sm" data-aos="fade" data-aos-duration="2000">
                         <Card.Body>
                             <Row>
                                 <Col xs="auto" className="icon-col">
@@ -98,7 +96,7 @@ export default function TermsofUse() {
             </section>
 
             {/* CONTACT PRIVACY SECTION */}
-            <section className="contact-privacy-section">
+            <section className="contact-privacy-section" data-aos="fade-up" data-aos-duration="2000">
                 <Card className="contact-card">
                     <div className="icon-box">
                         <i className="ri-mail-line"></i>
