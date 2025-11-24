@@ -47,7 +47,7 @@ export default function Header() {
                         <Nav.Link
                             as={HashLink}
                             smooth
-                            to="#home"
+                            to="/home#home"
                             eventKey="home"
                             className={activeSection === "home" ? "active" : ""}
                         >
@@ -58,7 +58,7 @@ export default function Header() {
                         <Nav.Link
                             as={HashLink}
                             smooth
-                            to="#our_fleet"
+                            to="/home#our_fleet"
                             eventKey="our_fleet"
                             className={activeSection === "our_fleet" ? "active" : ""}
                         >
@@ -69,7 +69,7 @@ export default function Header() {
                         <Nav.Link
                             as={HashLink}
                             smooth
-                            to="#experiences"
+                            to="/home#experiences"
                             eventKey="experiences"
                             className={activeSection === "experiences" ? "active" : ""}
                         >
@@ -90,7 +90,7 @@ export default function Header() {
                         <Nav.Link
                             as={HashLink}
                             smooth
-                            to="#contact"
+                            to="/home#contact"
                             eventKey="contact"
                             className={`contact-us ${activeSection === "contact" ? "active" : ""}`}
                         >
