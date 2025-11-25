@@ -8,7 +8,7 @@
     right: 0;
 
     .navbar-brand {
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 600;
         color: #111827;
     }
@@ -74,6 +74,10 @@
 // MOBILE VIEW MEDIA QUERY
 @media screen and (max-width: 480px) {
     .my-navbar {
+        .navbar-brand {
+            font-size: 16px;
+        }
+        
         .navbar-toggler {
             &:focus {
                 box-shadow: none;

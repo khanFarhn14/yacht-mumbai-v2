@@ -182,13 +182,13 @@ body {
     text-align: center;
 
     h2 {
+      letter-spacing: -.015em;
       color: #111827;
-      font-size: 26px;
+      font-size: 40px;
       font-weight: 700;
-      margin-bottom: 1rem;
-      padding-bottom: 15px;
+      line-height: 1.25;
       position: relative;
-      text-transform: uppercase;
+      margin-bottom: 16px;
 
       &::before {
         content: "";
@@ -214,9 +214,10 @@ body {
     }
 
     p {
-      font-size: 14px;
-      width: 42rem;
+      font-size: 16px;
+      width: 672px;
       margin: 0 auto;
+      padding: 0 3rem;
     }
 
   }
@@ -261,7 +262,7 @@ body {
 
       h3 {
         color: #141414;
-        font-size: 26px;
+        font-size: 40px;
         font-weight: 600;
         margin-bottom: 1rem;
         padding-bottom: 15px;
@@ -302,8 +303,10 @@ body {
 // MOBILE VIEW MEDIA QUERY
 @media screen and (max-width: 480px) {
   body {
-     .main-app {
-    padding-top: 60px;}
+    .main-app {
+      padding-top: 60px;
+    }
+
     .btn-class {
       padding: 15px 30px;
     }

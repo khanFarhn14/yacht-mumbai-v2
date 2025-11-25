@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./home.scss";
 import Header from "../_Common/header";
-import { Button, Col, Container, Form, Row } from "react-bootstrap";
+import { Button, Col, Container, Form, Image, Modal, Row } from "react-bootstrap";
+
+import sailingIcon from "../../assets/img/home/our-fleet/icons/sailing-boat.png";
+import boatIcon from "../../assets/img/home/our-fleet/icons/boat.png";
+import starIcon from "../../assets/img/home/our-fleet/icons/star.png";
+import lightingIcon from "../../assets/img/home/our-fleet/icons/lighting.png";
+
 import sailBoatsImg from "../../assets/img/home/our-fleet/sail-boats.png";
 import sailYachtsImg from "../../assets/img/home/our-fleet/sail-yachts.png";
 import motorYachtsImg from "../../assets/img/home/our-fleet/motor-yachts.png";
@@ -19,67 +25,89 @@ export default function Home() {
     // YATCH DATA
     const yachtData = [
         {
+            title_icon: sailingIcon,
             title: "Sail Boats",
-            capacity: "6-8 Guests",
-            description: "Couples, small groups, peaceful cruising, pre-wedding photoshoots",
-            tags: ["Traditional sailing", "Wooden decks"],
-            image: sailBoatsImg
+            capacity: "Traditional Elegance",
+            description: "Experience the timeless charm of traditional sailing. Perfect for intimate gatherings and peaceful cruising along Mumbai's coastline.",
+            tags: "6-8 Guests",
+            image: sailBoatsImg,
+            icon: "ri-group-line"
         },
         {
+            title_icon: boatIcon,
             title: "Sail Yachts",
-            capacity: "15-35 Guests",
-            description: "Corporate parties, sunset dinners, family gatherings, special occasions",
-            tags: ["Luxury interiors", "Gourmet kitchens"],
-            image: sailYachtsImg
+            capacity: "Sophisticated Luxury",
+            description: "Elevate your celebration with our spacious luxury sail yachts. Combining traditional sailing with modern amenities for an unforgettable...",
+            tags: "15-35 Guests",
+            image: sailYachtsImg,
+            icon: "ri-group-line"
         },
         {
+            title_icon: starIcon,
             title: "Motor Yachts",
             capacity: "15-25 Guests",
-            description: "Birthday parties, high-end private dinners, luxury events",
-            tags: ["Air-conditioned", "Multiple rooms"],
-            image: motorYachtsImg
+            description: "Experience the pinnacle of luxury with our modern motor yachts. State-of-the-art amenities, climate control, and opulent interiors.",
+            tags: "15-25 Guests",
+            image: motorYachtsImg,
+            icon: "ri-group-line"
         },
         {
+            title_icon: lightingIcon,
             title: "Speed Boats",
             capacity: "6-12 Guests",
-            description: "Adventure seekers, short sea rides, quick city coastal tours",
-            tags: ["Fast & thrilling", "Open deck"],
-            image: speedBoatsImg
+            description: "Feel the adrenaline rush with our high-performance speed boats. Perfect for adventure seekers and quick coastal tours.",
+            tags: "6-12 Guests",
+            image: speedBoatsImg,
+            icon: "ri-group-line"
         }
     ];
 
     const featuredExperiences = [
         {
             title: "Sunset Cruise",
-            description: "Watch the sun set over the Arabian Sea from our premium yacht. Includes refreshments and music.",
             img: sunsetCruiseImg,
+            des: "Watch the sun set over the Arabian Sea from our premium yacht. Includes refreshments and music."
         },
         {
             title: "Speed Boat Adventure",
-            description: "Experience the thrill of high-speed boating with our state-of-the-art speed boats.",
             img: speedBoatAdventureImg,
+            des: "Experience the thrill of high-speed boating with our state-of-the-art speed boats."
         },
         {
             title: "Private Party Yacht",
-            description: "Celebrate your special moments with a fully customizable private yacht experience.",
             img: privatePartyYachtImg,
+            des: "Celebrate your special moments with a fully customizable private yacht experience."
         },
         {
             title: "Corporate Meetings & Events",
-            description: "Host high-end business meetings and corporate events on our luxury yacht with facilities for 2-100 people.",
             img: corporateMeetingsEventsImg,
+            des: "Host high-end business meetings and corporate events on our luxury yacht with state-of-the-art facilities for 2-100 people."
         },
         {
             title: "Event Celebrations",
-            description: "Make your special events unforgettable with premium yacht celebration packages.",
             img: eventCelebrationsImg,
+            des: "Make your special events unforgettable with our premium yacht celebration packages. Perfect for birthdays, milestones, and grand celebrations."
         },
         {
             title: "Anniversary Celebrations",
-            description: "Celebrate your love story with a romantic anniversary cruise on serene waters.",
             img: anniversaryCelebrationsImg,
+            des: "Celebrate your love story with a romantic anniversary cruise. Create intimate moments on the serene waters of Mumbai."
         }
     ];
+
+    // HANDLE FEATURE
+    const [show, setShow] = useState(false);
+    const [eventCelebrationsData, setEventCelebrationsData] = useState(null);
+    const handleFeature = (data) => {
+        setEventCelebrationsData(data);
+        setShow(true);
+    };
+
+    // CLOSE MODAL
+    const handleClose = () => {
+        setShow(false);
+        setEventCelebrationsData(null);
+    };
 
     return (
         <React.Fragment>
@@ -87,7 +115,7 @@ export default function Home() {
 
             {/* HOME SECTION  */}
             <section className="home-section" id="home">
-                <Container>
+                <Container className="sm-container">
                     <div className="home-section-content">
                         <div className="icon" data-aos="fade" data-aos-duration="2200">
                             <i className="ri-anchor-line"></i>
@@ -119,59 +147,9 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* OUR FLEET SECTION  */}
-            <section className="our-fleet-section" id="our_fleet">
-                <Container>
-                    <div className="section-title text-center" data-aos="fade-up" data-aos-duration="1500">
-                        <h2>Our Fleet</h2>
-                        <p>Choose from our diverse collection of vessels, each designed for unique experiences on Mumbai's beautiful waters</p>
-                    </div>
-
-                    <div className="our-fleet-content">
-                        <Row className="g-3">
-                            {yachtData.map((item, i) => (
-                                <Col key={i} lg={4} md={6} sm={12} className="mb-4" data-aos="fade" data-aos-duration="2000">
-                                    <div
-                                        className="yacht-card"
-                                        style={{ backgroundImage: `url(${item.image})` }}
-                                    >
-                                        <div className="content">
-                                            <h4>{item.title}</h4>
-                                            <p className="capacity">Capacity: {item.capacity}</p>
-                                            <p className="desc">{item.description}</p>
-
-                                            <div className="tags">
-                                                {item.tags.map((t, index) => (
-                                                    <span key={index}>{t}</span>
-                                                ))}
-                                            </div>
-
-                                            <button className="book-btn">Book Now</button>
-                                        </div>
-                                    </div>
-                                </Col>
-                            ))}
-                        </Row>
-                    </div>
-
-                    <div className="expert-box" data-aos="fade-up" data-aos-duration="2000">
-                        <h5 className="title">Not Sure Which Boat to Choose?</h5>
-                        <p className="subtitle">
-                            Our team will help you select the perfect vessel based on your group size, occasion, <br />
-                            and preferences
-                        </p>
-
-                        <div className="btn-group-custom">
-                            <Button className="primary-btn">Get Expert Advice</Button>
-                            <Button className="outline-btn">View Complete Fleet Gallery</Button>
-                        </div>
-                    </div>
-                </Container>
-            </section>
-
             {/* FEATURED EXPERIENCE SECTION */}
             <section className="featured-experience-section" id="experiences">
-                <Container>
+                <Container className="sm-container">
                     <div className="section-title text-center" data-aos="fade-up" data-aos-duration="2500">
                         <h2>Featured Experiences</h2>
                         <p>Choose from our curated selection of premium yacht and speed boat experiences</p>
@@ -182,11 +160,10 @@ export default function Home() {
                         <Row className="g-3">
                             {featuredExperiences.map((item, index) => (
                                 <Col key={index} xs={12} sm={6} lg={4} data-aos="fade" data-aos-duration="2000">
-                                    <div className="service-card" style={{ backgroundImage: `url(${item.img})` }}>
+                                    <div className="service-card" onClick={() => handleFeature(item)} style={{ backgroundImage: `url(${item.img})` }}>
                                         <div className="service-content">
                                             <h3>{item.title}</h3>
                                             <p>{item.description}</p>
-                                            <Button variant="light" className="book-btn">Book Now +</Button>
                                         </div>
                                     </div>
                                 </Col>
@@ -196,9 +173,58 @@ export default function Home() {
                 </Container>
             </section>
 
+            {/* OUR FLEET SECTION  */}
+            <section className="our-fleet-section" id="our_fleet">
+                <Container className="sm-container">
+                    <div className="section-title text-center" data-aos="fade-up" data-aos-duration="1500">
+                        <h2>Our Fleet</h2>
+                        <p>Choose from our diverse collection of vessels, each designed for unique experiences on Mumbai's beautiful waters</p>
+                    </div>
+
+                    <div className="our-fleet-content">
+                        <Row className="g-3">
+                            {yachtData.map((item, i) => (
+                                <Col key={i} lg={6} md={6} sm={12} className="mb-4" data-aos="fade" data-aos-duration="2000">
+                                    <div className="yacht-card" style={{ backgroundImage: `url(${item.image})` }}>
+                                        <div className="content">
+                                            <div className="content-title d-flex align-items-center gap-2">
+                                                <div className="yacht-title-icon">
+                                                    <Image src={item.title_icon} alt="icon" />
+                                                </div>
+                                                <div>
+                                                    <h4>{item.title}</h4>
+                                                    <p className="capacity">{item.capacity}</p>
+                                                </div>
+                                            </div>
+                                            <p className="desc">{item.description}</p>
+                                            <div className="tags">
+                                                <i className="ri-group-line"></i>
+                                                <span>{item.tags}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Col>
+                            ))}
+                        </Row>
+                    </div>
+
+                    <div className="expert-box" data-aos="fade-up" data-aos-duration="2000">
+                        <h5 className="title">Ready to Set Sail?</h5>
+                        <p className="subtitle">
+                            Choose your perfect vessel and create unforgettable memories on Mumbai's stunning waters. Expert crew, luxury amenities,
+                            and exceptional service await.
+                        </p>
+                        <div className="btn-group-custom">
+                            <Button className="primary-btn">Get Expert Advice</Button>
+                            <Button className="outline-btn">View Full Fleet Gallery</Button>
+                        </div>
+                    </div>
+                </Container>
+            </section>
+
             {/* GET IN TOUCH SECTION */}
             <section className="get-in-touch" id="contact">
-                <Container>
+                <Container className="sm-container">
                     <div className="section-title text-center" data-aos="fade-up" data-aos-duration="2500">
                         <h2>Get In Touch</h2>
                         <p>Ready to embark on an unforgettable journey? Contact us to book your luxury yacht experience</p>
@@ -258,7 +284,7 @@ export default function Home() {
                                 </Form.Group>
 
                                 <Button className="submit-btn" type="button">
-                                    <i className="ri-send-plane-fill align-middle"></i> 
+                                    <i className="ri-send-plane-fill align-middle"></i>
                                     <span className="align-middle">Send Inquiry</span>
                                 </Button>
 
@@ -294,7 +320,7 @@ export default function Home() {
                                 </div>
 
                                 <div className="info-item">
-                                   <i className="ri-time-line"></i>
+                                    <i className="ri-time-line"></i>
                                     <div>
                                         <strong>Operating Hours</strong>
                                         <p>Monday - Sunday: 7:00 AM - 10:00 PM<br />24/7 Emergency Support</p>
@@ -308,6 +334,28 @@ export default function Home() {
                     </Row>
                 </Container>
             </section>
+
+            {/*  */}
+            <Modal className="event-celebrations-modal" show={show} onHide={handleClose} centered>
+                <Modal.Header closeButton>
+                    <Modal.Title>{eventCelebrationsData?.title || "Event Celebrations"}</Modal.Title>
+                </Modal.Header>
+
+                <Modal.Body>
+                    <div className="event-celebrations-content">
+                        <div className="event-celebrations-img">
+                            {eventCelebrationsData?.img && (
+                                <Image src={eventCelebrationsData.img} fluid />
+                            )}
+                        </div>
+                        <h4>{eventCelebrationsData?.des}</h4>
+                    </div>
+
+                    <div className="book-event-bttn">
+                          <Button variant="primary">Book Now via WhatsApp</Button>
+                    </div>
+                </Modal.Body>
+            </Modal>
         </React.Fragment>
     );
 }
