@@ -20,6 +20,12 @@ import corporateMeetingsEventsImg from "../../assets/img/home/featured-experienc
 import eventCelebrationsImg from "../../assets/img/home/featured-experiences/event-celebrations.png";
 import anniversaryCelebrationsImg from "../../assets/img/home/featured-experiences/anniversary-celebrations.png";
 
+import SunsetCruiseIcon from "../../assets/img/home/featured-experiences/icons/sunset.png";
+import speedBoatIcon from "../../assets/img/home/featured-experiences/icons/boat.png";
+import privatePartyIcon from "../../assets/img/home/featured-experiences/icons/confetti.png";
+import corporateMeetingsIcon from "../../assets/img/home/featured-experiences/icons/discussion.png";
+import eventCelebrationsIcon from "../../assets/img/home/featured-experiences/icons/celebration.png";
+import anniversaryIcon from "../../assets/img/home/featured-experiences/icons/party-popper.png";
 
 export default function Home() {
     // YATCH DATA
@@ -64,31 +70,37 @@ export default function Home() {
 
     const featuredExperiences = [
         {
+            title_icon: SunsetCruiseIcon,
             title: "Sunset Cruise",
             img: sunsetCruiseImg,
             des: "Watch the sun set over the Arabian Sea from our premium yacht. Includes refreshments and music."
         },
         {
+            title_icon: speedBoatIcon,
             title: "Speed Boat Adventure",
             img: speedBoatAdventureImg,
             des: "Experience the thrill of high-speed boating with our state-of-the-art speed boats."
         },
         {
+            title_icon: privatePartyIcon,
             title: "Private Party Yacht",
             img: privatePartyYachtImg,
             des: "Celebrate your special moments with a fully customizable private yacht experience."
         },
         {
+            title_icon: corporateMeetingsIcon,
             title: "Corporate Meetings & Events",
             img: corporateMeetingsEventsImg,
             des: "Host high-end business meetings and corporate events on our luxury yacht with state-of-the-art facilities for 2-100 people."
         },
         {
+            title_icon: eventCelebrationsIcon,
             title: "Event Celebrations",
             img: eventCelebrationsImg,
             des: "Make your special events unforgettable with our premium yacht celebration packages. Perfect for birthdays, milestones, and grand celebrations."
         },
         {
+            title_icon: anniversaryIcon,
             title: "Anniversary Celebrations",
             img: anniversaryCelebrationsImg,
             des: "Celebrate your love story with a romantic anniversary cruise. Create intimate moments on the serene waters of Mumbai."
@@ -336,11 +348,13 @@ export default function Home() {
             </section>
 
             {/*  */}
-            <Modal className="event-celebrations-modal" show={show} onHide={handleClose} centered>
+            <Modal className="event-celebrations-modal" show={show} onHide={handleClose} animation={false} centered>
                 <Modal.Header closeButton>
-                    <Modal.Title>{eventCelebrationsData?.title || "Event Celebrations"}</Modal.Title>
+                    <Modal.Title className="d-flex align-items-center gap-2">
+                        <Image src={eventCelebrationsData?.title_icon} alt="icon" />
+                        <span>{eventCelebrationsData?.title || "Event Celebrations"}</span>
+                        </Modal.Title>
                 </Modal.Header>
-
                 <Modal.Body>
                     <div className="event-celebrations-content">
                         <div className="event-celebrations-img">
