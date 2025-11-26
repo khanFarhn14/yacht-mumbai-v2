@@ -1,0 +1,62 @@
+[
+    {
+        "img": "sailBoats",
+        "id": "01",
+        "key": "sail_boats_tab",
+        "capacity": "6-8 Guests",
+        "badge": "TRADITIONAL ELEGANCE",
+        "name": "Sail Boats",
+        "des": "Experience the timeless charm of traditional sailing with our wooden deck sailboats. Perfect for intimate gatherings and peaceful cruising along Mumbai's coastline.",
+        "list": [
+            "Classic sailing experience",
+            "Intimate atmosphere",
+            "Perfect for photography",
+            "Eco-friendly option"
+        ]
+    },
+    {
+        "img": "sailYachts",
+        "id": "02",
+        "key": "sail_yachts_tab",
+        "capacity": "15-35 Guests",
+        "badge": "SOPHISTICATED LUXURY",
+        "name": "Sail Yachts",
+        "des": "Elevate your celebration with our spacious luxury sail yachts. Combining traditional sailing with modern amenities for an unforgettable experience.",
+        "list": [
+            "Spacious deck areas",
+            "Premium interiors",
+            "Full catering facilities",
+            "Entertainment ready"
+        ]
+    },
+    {
+        "img": "motorYachts",
+        "id": "03",
+        "key": "motor_yachts_tab",
+        "capacity": "15-25 Guests",
+        "badge": "ULTIMATE PRESTIGE",
+        "name": "Motor Yachts",
+        "des": "Experience the pinnacle of luxury with our modern motor yachts. State-of-the-art amenities, climate control, and opulent interiors for your most prestigious events.",
+        "list": [
+            "Modern luxury design",
+            "Climate controlled",
+            "Premium amenities",
+            "VIP experience"
+        ]
+    },
+    {
+        "img": "speedBoats",
+        "id": "04",
+        "key": "speed_boats_tab",
+        "capacity": "6-12 Guests",
+        "badge": "THRILLING ADVENTURE",
+        "name": "Speed Boats",
+        "des": "Feel the adrenaline rush with our high-performance speed boats. Perfect for adventure seekers and quick coastal tours with style and excitement.",
+        "list": [
+            "High-speed thrills",
+            "Modern design",
+            "Quick tours",
+            "Adventure ready"
+        ]
+    }
+]

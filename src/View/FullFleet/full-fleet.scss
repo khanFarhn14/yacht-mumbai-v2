@@ -1,0 +1,360 @@
+.our-fleet-section {
+    .our-fleet-content {
+        text-align: center;
+
+        .premium-fleet-badge {
+            font-size: 14px;
+            font-weight: 600;
+            color: #374151;
+            letter-spacing: 0.03em;
+            padding: 8px 16px;
+            display: inline-block;
+            background-color: #f3f4f6;
+            text-transform: uppercase;
+            border-radius: 25px;
+
+            i {
+                color: #6366f1;
+                margin-right: 5px;
+            }
+        }
+
+        h2 {
+            color: #111827;
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 1.15;
+            margin: 24px 0;
+            letter-spacing: -0.02em;
+        }
+
+        p {
+            font-size: 18px;
+            color: #696b69;
+            line-height: 1.7;
+            max-width: 600px;
+            margin: 0px auto;
+        }
+    }
+}
+
+// FLEET NAV TAB SECTION
+.fleet-nav-tab-section {
+    .fleet-tabs-header {
+        padding: 32px 0;
+        border-top: 1px solid #e5e7eb;
+        border-bottom: 1px solid #e5e7eb;
+
+        .nav-pills {
+            justify-content: center;
+            gap: 10px;
+
+            .nav-item {
+                .nav-link {
+                    background-color: transparent;
+                    color: #374151;
+                    border: 1px solid #d1d5db;
+                    font-weight: 500;
+                    font-size: 14px;
+                    cursor: pointer;
+                    transform: none;
+                    padding: 12px 24px;
+                    border-radius: 25px;
+
+                    img {
+                        width: 18px;
+                        object-fit: cover;
+                        margin-right: 5px;
+                        filter: invert(1);
+                    }
+
+                    &:hover,
+                    &.active {
+                        background-color: #111827;
+                        color: #ffffff;
+
+                        img {
+                            filter: none;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .fleet-tabs-content {
+        padding: 64px 0;
+
+        .fleet-tabs-img {
+            padding: 0 2rem;
+
+            .fleet-image-box {
+                position: relative;
+                height: 600px;
+                background-color: #f9fafb;
+
+                .fleet-image {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+                .capacity-card {
+                    position: absolute;
+                    bottom: -20px;
+                    right: -20px;
+                    background: #fff;
+                    padding: 16px 24px;
+                    border-radius: 16px;
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 24px;
+
+                    i {
+                        color: #6366f1;
+                        font-size: 22px;
+                    }
+
+                    span {
+                        font-size: 12px;
+                        color: #6b7280;
+                        font-weight: 500;
+                    }
+
+                    h5 {
+                        font-size: 18px;
+                        font-weight: 700;
+                        color: #111827;
+                    }
+                }
+            }
+        }
+
+        .fleet-info {
+            padding: 0 2rem;
+
+            .fleet-badge {
+                background: #e0e7ff;
+                padding: 6px 12px;
+                border-radius: 20px;
+                font-size: 13px;
+                font-weight: 600;
+                color: #4338ca;
+                letter-spacing: 0.02em;
+                margin-bottom: 16px;
+                display: inline-block;
+            }
+
+            h2 {
+                color: #111827;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 1.25;
+                letter-spacing: -0.02em;
+                margin-bottom: 16px;
+            }
+
+            p {
+                font-size: 17px;
+                line-height: 1.7;
+                color: #374151;
+                margin-bottom: 16px;
+            }
+
+            .feature-item {
+                font-size: 14px;
+                color: #374151;
+                font-weight: 500;
+                margin-bottom: 16px;
+
+                .feature-icon {
+                    color: #4f46e5;
+                    font-size: 12px;
+                    width: 14px;
+                    height: 14px;
+                    text-align: center;
+                    line-height: 14px;
+                    border-radius: 50%;
+                    display: inline-block;
+                    background-color: #e0e7ff;
+                    margin-right: 8px;
+                }
+            }
+
+            .fleet-buttons {
+                display: flex;
+                gap: 15px;
+                margin-top: 16px;
+
+                .btn {
+                    font-size: 14px;
+                    padding: 12px 24px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.need-help-section {
+    padding: 80px 0;
+    background-color: #f9fafb;
+    border-top: 1px solid #e5e7eb;
+
+    .need-help-content {
+        text-align: center;
+
+        h2 {
+            color: #111827;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 1.3;
+            letter-spacing: -0.01em;
+        }
+
+        p {
+            font-size: 17px;
+            color: #374151;
+            line-height: 1.7;
+            width: 670px;
+            margin: 16px auto;
+        }
+
+        .need-help-btn {
+            .btn {
+                padding: 16px 32px;
+                font-weight: 600;
+                font-size: 15px;
+                transition: all 0.3s ease;
+                -webkit-transition: all 0.3s ease;
+
+                &.btn-primary {
+                    background: #6366f1;
+                    border-color: #6366f1;
+                }
+
+                &.btn-default {
+                    background-color: white;
+                    color: #111827;
+                    font-weight: 600;
+                    font-size: 15px;
+                    text-decoration: none;
+                    border: 2px solid #d1d5db;
+                    transform: none;
+                }
+
+                &:hover {
+                    transform: scale(1.05);
+                    -webkit-transform: scale(1.05);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .our-fleet-section {
+        .our-fleet-content {
+            .premium-fleet-badge {
+                font-size: 12px
+            }
+
+            h2 {
+                font-size: 36px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .fleet-nav-tab-section {
+        padding: 0 !important;
+        .fleet-tabs-header {
+            .nav-pills {
+                gap: 5px;
+
+                .nav-item {
+                    .nav-link {
+                        font-size: 12px;
+                        padding: 8px 10px;
+
+                        img {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .fleet-tabs-content {
+            .fleet-tabs-img {
+                padding: 0;
+
+                .fleet-image-box {
+                    height: 400px;
+
+                    .capacity-card {
+                        right: 10px;
+                        bottom: 10px;
+                        padding: 8px 18px;
+
+                        i {
+                            font-size: 20px;
+                        }
+
+                        h5 {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+            .fleet-info {
+                padding: 2rem 0 0 0;
+
+                .fleet-badge {
+                    font-size: 12px;
+                }
+
+                h2 {
+                    font-size: 32px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+
+                .fleet-buttons {
+                    .btn {
+                        font-size: 12px;
+                        padding: 10px 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .need-help-section {
+        .need-help-content {
+            h2 {
+                font-size: 22px;
+            }
+
+            p {
+                width: 100%;
+                font-size: 14px;
+            }
+
+            .need-help-btn {
+                .btn {
+                    font-size: 12px;
+                    padding: 10px 28px;
+                }
+            }
+        }
+    }
+}

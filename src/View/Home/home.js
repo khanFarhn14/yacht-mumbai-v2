@@ -228,7 +228,7 @@ export default function Home() {
                         </p>
                         <div className="btn-group-custom">
                             <Button className="primary-btn">Get Expert Advice</Button>
-                            <Button className="outline-btn">View Full Fleet Gallery</Button>
+                            <Button className="outline-btn" onClick={() => (window.location.href = "/full-fleet")}>View Full Fleet Gallery</Button>
                         </div>
                     </div>
                 </Container>

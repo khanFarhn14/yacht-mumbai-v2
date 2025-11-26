@@ -11,6 +11,7 @@ import Footer from './View/_Common/Footer';
 import PrivacyPolicy from './View/QuickLinks/privacy-policy';
 import TermsofUse from './View/QuickLinks/terms-of-use';
 import SafetyGuidelines from './View/QuickLinks/safety-guidelines';
+import FullFleet from './View/FullFleet/full-fleet';
 
 export default function App() {
   // ✅ Initialize AOS only once when the app loads
@@ -32,6 +33,7 @@ export default function App() {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-use" element={<TermsofUse />} />
           <Route path="/safety-guidelines" element={<SafetyGuidelines />} />
+          <Route path="/full-fleet" element={<FullFleet />} />
         </Routes>
       </div>
       <Footer />
