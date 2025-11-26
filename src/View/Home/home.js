@@ -70,36 +70,42 @@ export default function Home() {
 
     const featuredExperiences = [
         {
+            id: "sunset_cruise",
             title_icon: SunsetCruiseIcon,
             title: "Sunset Cruise",
             img: sunsetCruiseImg,
             des: "Watch the sun set over the Arabian Sea from our premium yacht. Includes refreshments and music."
         },
         {
+            id: "speed_boat_adventure",
             title_icon: speedBoatIcon,
             title: "Speed Boat Adventure",
             img: speedBoatAdventureImg,
             des: "Experience the thrill of high-speed boating with our state-of-the-art speed boats."
         },
         {
+            id: "private_party_yacht",
             title_icon: privatePartyIcon,
             title: "Private Party Yacht",
             img: privatePartyYachtImg,
             des: "Celebrate your special moments with a fully customizable private yacht experience."
         },
         {
+            id: "corporate_meetings",
             title_icon: corporateMeetingsIcon,
             title: "Corporate Meetings & Events",
             img: corporateMeetingsEventsImg,
             des: "Host high-end business meetings and corporate events on our luxury yacht with state-of-the-art facilities for 2-100 people."
         },
         {
+            id: "event_celebrations",
             title_icon: eventCelebrationsIcon,
             title: "Event Celebrations",
             img: eventCelebrationsImg,
             des: "Make your special events unforgettable with our premium yacht celebration packages. Perfect for birthdays, milestones, and grand celebrations."
         },
         {
+            id: "anniversary_celebrations",
             title_icon: anniversaryIcon,
             title: "Anniversary Celebrations",
             img: anniversaryCelebrationsImg,
@@ -120,6 +126,30 @@ export default function Home() {
         setShow(false);
         setEventCelebrationsData(null);
     };
+
+    const whatsappLinks = {
+        "sunset_cruise": "https://api.whatsapp.com/send/?phone=917666689265&text=Hi! I'd like to enquire about Sunset Cruise.%0APlease share availability, pricing, and package details.&type=phone_number&app_absent=0",
+
+        "speed_boat_adventure": "https://api.whatsapp.com/send/?phone=917666689265&text=Hi! I'd like to enquire about Speed Boat Adventure.%0APlease share availability, pricing, and package details.&type=phone_number&app_absent=0",
+
+        "private_party_yacht": "https://api.whatsapp.com/send/?phone=917666689265&text=Hi! I'd like to enquire about Private Party Yacht.%0APlease share availability, pricing, and package details.&type=phone_number&app_absent=0",
+
+        "corporate_meetings": "https://api.whatsapp.com/send/?phone=917666689265&text=Hi! I'd like to enquire about Corporate Meetings & Events.%0APlease share availability, pricing, and package details.&type=phone_number&app_absent=0",
+
+        "event_celebrations": "https://api.whatsapp.com/send/?phone=917666689265&text=Hi! I'd like to enquire about Event Celebrations.%0APlease share availability, pricing, and package details.&type=phone_number&app_absent=0",
+
+        "anniversary_celebrations": "https://api.whatsapp.com/send/?phone=917666689265&text=Hi! I'd like to enquire about Anniversary Celebrations.%0APlease share availability, pricing, and package details.&type=phone_number&app_absent=0",
+    };
+
+    const handleBookNow = (book) => {
+        const link = whatsappLinks[book.id];
+
+        if (link) {
+            window.open(link, "_blank");   // NEW TAB ✔
+        } else {
+            console.error("No WhatsApp link found for ID:", book.id);
+        }
+    }
 
     return (
         <React.Fragment>
@@ -227,7 +257,7 @@ export default function Home() {
                             and exceptional service await.
                         </p>
                         <div className="btn-group-custom">
-                            <Button className="primary-btn">Get Expert Advice</Button>
+                            <Button className="primary-btn" onClick={() => (window.location.href = "#home")}>Get Expert Advice</Button>
                             <Button className="outline-btn" onClick={() => (window.location.href = "/full-fleet")}>View Full Fleet Gallery</Button>
                         </div>
                     </div>
@@ -353,7 +383,7 @@ export default function Home() {
                     <Modal.Title className="d-flex align-items-center gap-2">
                         <Image src={eventCelebrationsData?.title_icon} alt="icon" />
                         <span>{eventCelebrationsData?.title || "Event Celebrations"}</span>
-                        </Modal.Title>
+                    </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <div className="event-celebrations-content">
@@ -366,7 +396,7 @@ export default function Home() {
                     </div>
 
                     <div className="book-event-bttn">
-                          <Button variant="primary">Book Now via WhatsApp</Button>
+                        <Button variant="primary" onClick={() => handleBookNow(eventCelebrationsData)}>Book Now via WhatsApp</Button>
                     </div>
                 </Modal.Body>
             </Modal>

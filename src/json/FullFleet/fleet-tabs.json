@@ -12,6 +12,41 @@
             "Intimate atmosphere",
             "Perfect for photography",
             "Eco-friendly option"
+        ],
+        "info": [
+            {
+                "technicalSpecifications": {
+                    "length": "35-40 feet",
+                    "beam": "12 feet",
+                    "draft": "5 feet",
+                    "cruisingSpeed": "6-8 knots"
+                },
+                "featuresAndAmenities": {
+                    "coreFeatures": [
+                        "Traditional teak wood decking",
+                        "Classic sail rigging",
+                        "Compact seating areas",
+                        "Basic galley facilities",
+                        "Safety equipment included",
+                        "Life jackets for all guests"
+                    ],
+                    "premiumAmenities": [
+                        "Shaded seating area",
+                        "Basic refreshment service",
+                        "Bluetooth audio system",
+                        "Professional crew"
+                    ]
+                },
+                "perfectFor": [
+                    "Couples and small groups",
+                    "Pre-wedding photoshoots",
+                    "Peaceful sunset cruises",
+                    "Romantic occasions",
+                    "Nature photography"
+                ],
+                "bookingNotice": "48 hours minimum",
+                "departurePoint": "Gateway of India"
+            }
         ]
     },
     {
@@ -27,6 +62,44 @@
             "Premium interiors",
             "Full catering facilities",
             "Entertainment ready"
+        ],
+        "info": [
+            {
+                "technicalSpecifications": {
+                    "length": "50-65 feet",
+                    "beam": "16 feet",
+                    "draft": "6.5 feet",
+                    "cruisingSpeed": "8-10 knots"
+                },
+                "featuresAndAmenities": {
+                    "coreFeatures": [
+                        "Spacious main deck with lounge seating",
+                        "Luxurious interior cabins",
+                        "Professional galley kitchen",
+                        "Multiple bathrooms",
+                        "Advanced navigation systems",
+                        "Emergency safety equipment"
+                    ],
+                    "premiumAmenities": [
+                        "Air-conditioned interior spaces",
+                        "Premium sound system",
+                        "LED lighting setup",
+                        "Catering preparation area",
+                        "Bar counter",
+                        "Professional crew (Captain + 2 staff)"
+                    ]
+                },
+                "perfectFor": [
+                    "Corporate events and team building",
+                    "Family celebrations",
+                    "Sunset dinner parties",
+                    "Wedding proposals",
+                    "Anniversary celebrations",
+                    "Birthday parties (mid-size groups)"
+                ],
+                "bookingNotice": "48 hours minimum",
+                "departurePoint": "Gateway of India"
+            }
         ]
     },
     {
@@ -42,6 +115,46 @@
             "Climate controlled",
             "Premium amenities",
             "VIP experience"
+        ],
+        "info": [
+            {
+                "technicalSpecifications": {
+                    "length": "55-70 feet",
+                    "beam": "18 feet",
+                    "draft": "4.5 feet",
+                    "cruisingSpeed": "15-20 knots"
+                },
+                "featuresAndAmenities": {
+                    "coreFeatures": [
+                        "Contemporary interior design",
+                        "Multiple climate-controlled cabins",
+                        "Sundeck with lounge furniture",
+                        "Professional galley with modern appliances",
+                        "Master suite available",
+                        "Advanced stabilization systems"
+                    ],
+                    "premiumAmenities": [
+                        "Full air conditioning throughout",
+                        "Premium audio-visual system",
+                        "Smart lighting control",
+                        "Luxury bathroom facilities",
+                        "Mini bar and wine cooler",
+                        "Dining area for formal meals",
+                        "Professional crew (Captain + 3 staff)",
+                        "Water sports equipment (on request)"
+                    ]
+                },
+                "perfectFor": [
+                    "High-end corporate events",
+                    "Luxury birthday celebrations",
+                    "VIP client entertainment",
+                    "Exclusive private dinners",
+                    "Celebrity events",
+                    "Milestone celebrations"
+                ],
+                "bookingNotice": "48 hours minimum",
+                "departurePoint": "Gateway of India"
+            }
         ]
     },
     {
@@ -57,6 +170,44 @@
             "Modern design",
             "Quick tours",
             "Adventure ready"
+        ],
+        "info": [
+            {
+                "technicalSpecifications": {
+                    "length": "28-35 feet",
+                    "beam": "10 feet",
+                    "draft": "3 feet",
+                    "cruisingSpeed": "35-45 knots"
+                },
+                "featuresAndAmenities": {
+                    "coreFeatures": [
+                        "Powerful twin engines",
+                        "Aerodynamic hull design",
+                        "Comfortable sport seating",
+                        "Open and shaded deck options",
+                        "GPS navigation",
+                        "Marine radio communication"
+                    ],
+                    "premiumAmenities": [
+                        "Premium seating with safety harnesses",
+                        "Waterproof storage compartments",
+                        "Bluetooth sound system",
+                        "Safety equipment and life jackets",
+                        "Experienced captain",
+                        "Photography-friendly platforms"
+                    ]
+                },
+                "perfectFor": [
+                    "Adventure enthusiasts",
+                    "Quick coastal sightseeing",
+                    "Island hopping tours",
+                    "Photography expeditions",
+                    "Small group celebrations",
+                    "Adrenaline experiences"
+                ],
+                "bookingNotice": "48 hours minimum",
+                "departurePoint": "Gateway of India"
+            }
         ]
     }
 ]
