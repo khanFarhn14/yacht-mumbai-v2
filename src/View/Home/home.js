@@ -193,7 +193,7 @@ export default function Home() {
             {/* FEATURED EXPERIENCE SECTION */}
             <section className="featured-experience-section" id="experiences">
                 <Container className="sm-container">
-                    <div className="section-title text-center" data-aos="fade-up" data-aos-duration="2500">
+                    <div className="section-title text-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
                         <h2>Featured Experiences</h2>
                         <p>Choose from our curated selection of premium yacht and speed boat experiences</p>
                     </div>
@@ -219,7 +219,7 @@ export default function Home() {
             {/* OUR FLEET SECTION  */}
             <section className="our-fleet-section" id="our_fleet">
                 <Container className="sm-container">
-                    <div className="section-title text-center" data-aos="fade-up" data-aos-duration="1500">
+                    <div className="section-title text-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
                         <h2>Our Fleet</h2>
                         <p>Choose from our diverse collection of vessels, each designed for unique experiences on Mumbai's beautiful waters</p>
                     </div>
@@ -268,7 +268,7 @@ export default function Home() {
             {/* GET IN TOUCH SECTION */}
             <section className="get-in-touch" id="contact">
                 <Container className="sm-container">
-                    <div className="section-title text-center" data-aos="fade-up" data-aos-duration="2500">
+                    <div className="section-title text-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
                         <h2>Get In Touch</h2>
                         <p>Ready to embark on an unforgettable journey? Contact us to book your luxury yacht experience</p>
                     </div>
@@ -378,7 +378,7 @@ export default function Home() {
                 </Container>
             </section>
 
-            {/*  */}
+            {/* EVENT CELEBRATIONS MODAL */}
             <Modal className="event-celebrations-modal" show={show} onHide={handleClose} animation={false} centered>
                 <Modal.Header closeButton>
                     <Modal.Title className="d-flex align-items-center gap-2">

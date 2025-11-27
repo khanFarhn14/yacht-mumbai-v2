@@ -52,12 +52,12 @@ export default function FullFleet() {
             <section className="our-fleet-section">
                 <Container>
                     <div className="our-fleet-content">
-                        <span className="premium-fleet-badge">
+                        <span className="premium-fleet-badge" data-aos="fade" data-aos-duration="2000" data-aos-anchor-placement="top-bottom">
                             <i className="ri-menu-4-line align-middle"></i>
                             <span className="align-middle">PREMIUM FLEET COLLECTION</span>
                         </span>
-                        <h2>Our Fleet</h2>
-                        <p>From intimate sailboats to luxury motor yachts, discover the perfect vessel for your Mumbai maritime experience</p>
+                        <h2 data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom">Our Fleet</h2>
+                        <p data-aos="fade-up" data-aos-duration="2100" data-aos-anchor-placement="top-bottom">From intimate sailboats to luxury motor yachts, discover the perfect vessel for your Mumbai maritime experience</p>
                     </div>
                 </Container>
             </section>
@@ -227,7 +227,7 @@ export default function FullFleet() {
 
             <section className="need-help-section">
                 <Container>
-                    <div className="need-help-content">
+                    <div className="need-help-content" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
                         <h2>Need Help Choosing?</h2>
                         <p>Our experienced team will guide you to the perfect vessel based on your group size, occasion, and preferences</p>
                         <div className="need-help-btn d-flex gap-3 justify-content-center">
