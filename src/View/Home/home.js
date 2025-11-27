@@ -258,8 +258,8 @@ export default function Home() {
                             and exceptional service await.
                         </p>
                         <div className="btn-group-custom">
-                            <a className="primary-btn text-white" href="#">Get Expert Advice</a>
-                            <a className="outline-btn" href="/full-fleet">View Full Fleet Gallery</a>
+                            <Link className="primary-btn text-white" to="#">Get Expert Advice</Link>
+                            <Link className="outline-btn" to="/full-fleet">View Full Fleet Gallery</Link>
                         </div>
                     </div>
                 </Container>
