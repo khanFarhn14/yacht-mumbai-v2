@@ -26,6 +26,7 @@ import privatePartyIcon from "../../assets/img/home/featured-experiences/icons/c
 import corporateMeetingsIcon from "../../assets/img/home/featured-experiences/icons/discussion.png";
 import eventCelebrationsIcon from "../../assets/img/home/featured-experiences/icons/celebration.png";
 import anniversaryIcon from "../../assets/img/home/featured-experiences/icons/party-popper.png";
+import { Link } from "react-router-dom";
 
 export default function Home() {
     // YATCH DATA
@@ -257,8 +258,8 @@ export default function Home() {
                             and exceptional service await.
                         </p>
                         <div className="btn-group-custom">
-                            <Button className="primary-btn" onClick={() => (window.location.href = "#home")}>Get Expert Advice</Button>
-                            <Button className="outline-btn" onClick={() => (window.location.href = "/full-fleet")}>View Full Fleet Gallery</Button>
+                            <a className="primary-btn text-white" href="#">Get Expert Advice</a>
+                            <a className="outline-btn" href="/full-fleet">View Full Fleet Gallery</a>
                         </div>
                     </div>
                 </Container>
