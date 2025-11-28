@@ -130,11 +130,11 @@ export default function PrivacyPolicy() {
                      <Button
                         type="button"
                         as="a"
-                        href="mailto:info@booksailingmumbai.com"
+                        href="mailto:info@yachtmumbai.in"
                         className="email-btn"
                     >
                         <i className="ri-mail-send-line me-2 align-middle"></i>
-                        <span className="align-middle">info@booksailingmumbai.com</span>
+                        <span className="align-middle">info@yachtmumbai.in</span>
                     </Button>
                    </div>
                 </Card>

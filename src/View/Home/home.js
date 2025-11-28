@@ -358,7 +358,7 @@ export default function Home() {
                                     <i className="ri-mail-line"></i>
                                     <div>
                                         <strong>Email</strong>
-                                        <p>info@booksailingmumbai.com<br />bookings@booksailingmumbai.com</p>
+                                        <p>info@yachtmumbai.in<br />bookings@info@yachtmumbai.in</p>
                                     </div>
                                 </div>
 

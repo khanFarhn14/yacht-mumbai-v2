@@ -68,7 +68,7 @@ export default function Footer() {
                             <Col md={3} className="footer-col">
                                 <h5 className="text-uppercase">Connect With Us</h5>
                                 <ul>
-                                    <li><Nav.Link as={Link}>info@booksailingmumbai.com</Nav.Link></li>
+                                    <li><Nav.Link as={Link}>info@yachtmumbai.in</Nav.Link></li>
                                     <li><Nav.Link as="a" href="tel:+919876543210">+91 98765 43210</Nav.Link></li>
                                 </ul>
 

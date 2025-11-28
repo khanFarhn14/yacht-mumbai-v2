@@ -107,7 +107,7 @@ export default function TermsofUse() {
                     <p>If you have any questions, concerns, or need clarification about these Terms of Use, our team is here to help.</p>
 
                    <div>
-                     <Button type="button" variant="primary" as="a" href="mailto:info@booksailingmumbai.com" className="email-btn me-2" >
+                     <Button type="button" variant="primary" as="a" href="mailto:info@yachtmumbai.in" className="email-btn me-2" >
                         <i className="ri-mail-send-line me-2 align-middle"></i>
                         <span className="align-middle">Emila Us</span>
                     </Button>
