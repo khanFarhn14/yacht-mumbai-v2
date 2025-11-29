@@ -26,7 +26,7 @@ export default function TermsofUse() {
                             <h3 className="title" data-aos="fade-up" data-aos-duration="2500">Terms of Use</h3>
 
                             <p className="desc" data-aos="fade-up" data-aos-duration="2700">
-                                Please read these Terms of Use carefully before booking or using any services provided by Book Sailing Mumbai.
+                                Please read these Terms of Use carefully before booking or using any services provided by Yacht Mumbai.
                                 These terms govern your use of our website and yacht charter services.
                             </p>
 
@@ -77,7 +77,7 @@ export default function TermsofUse() {
                                     <h5 className="notice-title">Important Notice</h5>
 
                                     <p className="notice-text">
-                                        By making a booking with Book Sailing Mumbai, you acknowledge that you have
+                                        By making a booking with Yacht Mumbai, you acknowledge that you have
                                         read, understood, and agree to be bound by these Terms of Use. If you have
                                         any questions or concerns about these terms, please contact us before
                                         completing your booking.

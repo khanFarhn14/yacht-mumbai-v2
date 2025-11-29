@@ -38,7 +38,7 @@ export default function Footer() {
                         <Row className="gy-4">
                             <Col md={3} className="footer-col">
                                 <div className="footer-title">
-                                    <h2>Book Sailing Mumbai</h2>
+                                    <h2>Yacht Mumbai</h2>
                                     <h3>Experience luxury on the Arabian Sea with Mumbai's premier yacht and speed boat charter service.</h3>
                                 </div>
 
@@ -83,7 +83,7 @@ export default function Footer() {
                     </div>
 
                     <div className="bottom-footer">
-                        <p>© 2024 Book Sailing Mumbai. All rights reserved.</p>
+                        <p>© 2024 Yacht Mumbai. All rights reserved.</p>
                         <ul className="d-flex gap-3">
                             <li>
                                 <Nav.Link as={HashLink} className={activeSection === "privacy-policy" ? "active" : ""} to="privacy-policy" eventKey="privacy-policy">

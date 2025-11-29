@@ -54,7 +54,7 @@ export default function PrivacyPolicy() {
                             <h3 className="title" data-aos="fade-up" data-aos-duration="2500">Privacy Policy</h3>
 
                             <p className="desc" data-aos="fade-up" data-aos-duration="2700">
-                                At Book Sailing Mumbai, we are committed to protecting your privacy
+                                At Yacht Mumbai, we are committed to protecting your privacy
                                 and ensuring the security of your personal information. This Privacy
                                 Policy explains how we collect, use, share, and protect your
                                 information when you use our yacht charter services.

@@ -131,7 +131,7 @@ export default function SafetyGuidelines() {
                             </div>
 
                             <h3 className="title" data-aos="fade-up" data-aos-duration="2500">Your Safety is Our Priority</h3>
-                            <p className="desc mb-0" data-aos="fade-up" data-aos-duration="2700">At Book Sailing Mumbai, we believe that memorable experiences begin with peace of mind. Every precaution,
+                            <p className="desc mb-0" data-aos="fade-up" data-aos-duration="2700">At Yacht Mumbai, we believe that memorable experiences begin with peace of mind. Every precaution,
                                 every protocol, and every crew member is dedicated to ensuring your journey on the water is safe, comfortable, and truly unforgettable.</p>
                         </Col>
                     </Row>

@@ -38,7 +38,7 @@ export default function Header() {
     return (
         <Navbar expand="lg" className="my-navbar">
             <Container>
-                <Navbar.Brand as={Link} to="/">Book Sailing Mumbai</Navbar.Brand>
+                <Navbar.Brand as={Link} to="/">Yacht Mumbai</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                     <Nav className="navbar-links" activeKey={activeSection}>
