@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./home.scss";
 import Header from "../_Common/header";
 import { Button, Col, Container, Form, Image, Modal, Row } from "react-bootstrap";
@@ -151,6 +151,27 @@ export default function Home() {
             console.error("No WhatsApp link found for ID:", book.id);
         }
     }
+
+ const [showPayment, setShowPayment] = useState(false);
+     // Load Razorpay script only when needed
+    useEffect(() => {
+        if (!showPayment) return;
+
+        const script = document.createElement("script");
+        script.src = "https://checkout.razorpay.com/v1/payment-button.js";
+        script.setAttribute("data-payment_button_id", "pl_RlU9ok7qBhu1nB");
+        script.async = true;
+
+        document.getElementById("rzp-container").appendChild(script);
+    }, [showPayment]);
+
+       const handleSubmit = () => {
+        // You can validate or send the form data to backend here
+        console.log("Form submitted!");
+
+        // Now show Razorpay payment button
+        setShowPayment(true);
+    };
 
     return (
         <React.Fragment>
@@ -326,10 +347,15 @@ export default function Home() {
                                     <Form.Control as="textarea" rows={4} placeholder="Tell us about your ideal yacht experience..." />
                                 </Form.Group>
 
-                                <Button className="submit-btn" type="button">
+                                <Button className="submit-btn" type="button"  onClick={handleSubmit}>
                                     <i className="ri-send-plane-fill align-middle"></i>
                                     <span className="align-middle">Send Inquiry</span>
                                 </Button>
+
+                                 {/* Show Razorpay only after submit */}
+                    {showPayment && (
+                        <div id="rzp-container" className="mt-4"></div>
+                    )}
 
                             </Form>
                         </Col>
