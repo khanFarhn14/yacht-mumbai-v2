@@ -194,6 +194,14 @@
                     width: 100%;
                 }
             }
+
+               .book-now-bttn {
+                    .btn {
+                       font-size: 14px;
+                       padding: 12px 24px;
+                       font-weight: 500;
+                    }
+                }
         }
 
         .fleet-info-wrapper {
@@ -440,6 +448,12 @@
                     .btn {
                         font-size: 12px;
                         padding: 10px 20px;
+                    }
+                }
+
+                 .book-now-bttn {
+                    .btn {
+                       padding: 10px 20px;
                     }
                 }
             }

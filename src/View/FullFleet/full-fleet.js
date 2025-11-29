@@ -132,8 +132,11 @@ export default function FullFleet() {
                                                     {/* BUTTONS */}
                                                     <div className="fleet-buttons">
                                                         <Button variant="dark" className="btn-main">Quick Overview</Button>
-                                                        <Button variant="light" className="btn-light" onClick={() => setActiveSpecId(item.id)}>
-                                                            Full Specifications
+                                                        <Button variant="light" className="btn-light" onClick={() => setActiveSpecId(item.id)}>Full Specifications</Button>
+                                                    </div>
+                                                    <div className="mt-3 book-now-bttn">
+                                                        <Button variant="primary" className="w-100 text-uppercase">
+                                                            <span>Book Now</span>
                                                         </Button>
                                                     </div>
                                                 </div>
